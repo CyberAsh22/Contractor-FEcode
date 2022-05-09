@@ -1,0 +1,135 @@
+.centered-b {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-b {
+  width: 85%;
+}
+
+.modal.show .modal-dialog{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.fade.timer_modal.modal.show .modal-dialog {        
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.pre-arrival {
+  width: 96%;
+  margin-right: 0;
+}
+.signinBtn1 {
+  font-family: "cabin";
+  width: 25%;
+  color: #5c38c4;
+  background-color: #f5f3fb;
+  border-color: #f5f3fb;
+  height: 74px;
+  border-radius: 17px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.form-label {
+  color: #22003b;
+  font-family: "cabin";
+  font-weight: 500;
+  opacity: 0.65;
+}
+
+.mb-3.font-size-family {
+  font-size: 20px;
+  font-weight: 700 !important;
+  font-family: "cabin";
+}
+
+.signinBtn2 {
+  border-radius: 17px;
+  font-family: "cabin";
+
+  height: 74px;
+  width: 50%;
+  margin-left: 5%;
+  color: "#fff";
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #5c38c4 !important;
+}
+
+.mb-3.pass-flex.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.signin_left_text {
+  width: 480px;
+  margin: auto;
+}
+.signinEmailInput {
+  width: 594px;
+  height: 74px;
+  border-radius: 17px;
+  background-color: #fff;
+}
+
+.text-left {
+  text-align: left;
+}
+.signin_left_text h3 {
+  font-size: 40px;
+  font-family: "cabin";
+  color: #fff;
+  font-weight: 400;
+}
+button.mb-3.showPass_btn.btn.btn-primary {
+    background-color:transparent;
+    border:transparent;
+}
+label.mb-3.show_pass.form-label {
+  display: flex;
+  justify-content: space-between;
+  width: 91%;
+}
+.mb-3.pass-flex.form-group .react-code-input input {
+  height: 74px !important;
+  border-radius: 17px !important;
+  padding: 0 !important;
+  width: 74px !important;
+  text-align: center;
+  margin-right: 25px !important;
+  font-size: 32px;
+}
+
+.bg-color.pre-ar.rival.home-bg-color.container-fluid {
+  height: 100vh;
+  background-color: #faf9ff;
+}
+.bg-color-signin {
+  background-color: #5c38c4;
+  background-image: url("../assets/images/Cars.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.img-shadow {
+  background-image: url("../assets/images/signinImageleftImage.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  height: 215px;
+  margin-left: 50px;
+}
+@media (max-height:874px){
+  .bg-color.pre-ar.rival.home-bg-color.container-fluid {
+  height: auto;
+  background-color: #faf9ff;
+
+}
+}

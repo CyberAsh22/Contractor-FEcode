@@ -1,0 +1,115 @@
+.bg-color {
+  /* height: 100vh; */
+  background-color: #faf9ff;
+}
+main.MuiBox-root.css-zxdg2z {
+  padding: 0;
+}
+.home_header_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home_header_color {
+  width: 100%;
+  background-color: white;
+  border-radius: 17px;
+  margin: 40px 50px 19px;
+  padding: 20px 0px;
+}
+.home_header_color {
+  /* max-width: 900px; */
+  /* margin: auto; */
+  background-color: #fff;
+  border-radius: 8px;
+  margin-top: 30px;
+  display: flex;
+  height: 90px;
+}
+.home_header_icon_color {
+  margin-right: 23px;
+  background-color: #faf9ff;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.bg_white_section.row {
+  /* width: 100%; */
+  background-color: white;
+  border-radius: 17px;
+  /* margin: 40px 39px 43px;
+     */
+  margin: 15px 65px 15px;
+  padding: 20px 0px;
+}
+.okok {
+  display: flex;
+  align-items: center;
+}
+
+.okok h3 {
+  margin-left: 26px !important;
+  margin-bottom: 0 !important;
+}
+.bg_white_section {
+  /* max-width: 900px; */
+  margin: auto;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-top: 25px;
+}
+.home_section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icon_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon_section img {
+  margin-right: 20px;
+}
+.icon_section h3 {
+  margin: 0;
+}
+.home_section_button {
+  height: 87px !important;
+  width: 592px !important;
+  border-radius: 10px !important;
+  background-color: #5c38c4 !important;
+  font-size: 30px;
+  font-family: "Cabin";
+}
+.home_section {
+  height: 407px;
+}
+.fade.modal_main.modal.show > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bg-color.pre-ar.rival.container-fluid {
+  width: 97%;
+  margin-right: 0;
+}
+
+.box_size {
+  margin-top: 25px !important;
+  /* width: 1066px; */
+  height: 89px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: auto; */
+
+  border-radius: 17px;
+  margin: 40px 65px 43px;
+  padding: 20px 0px;
+}

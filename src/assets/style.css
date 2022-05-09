@@ -1,0 +1,2299 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Galdeano&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gabriela&display=swap");
+@font-face {
+  font-family: newFont;
+  src: url("../assets/fonts/BwModelicaSS01-Bold.otf");
+}
+@font-face {
+  font-family: newFont1;
+  src: url("../assets/fonts/BwModelicaSS01-Black.otf");
+}
+.sideBarNavLink {
+  text-decoration: none !important;
+}
+a {
+  color: #5c38c4 !important;
+}
+.p-18,
+.p-16 {
+  font-family: "Cabin";
+}
+body {
+  overflow-x: hidden;
+}
+
+.MuiBox-root {
+  height: 0;
+}
+.modal.show {
+  z-index: 9999;
+}
+
+.fade.modal-backdrop.show {
+  z-index: 9999;
+}
+.MuiInputBase-input:focus {
+  border-radius: 17px !important;
+  border: 2px solid #000 !important;
+  box-shadow: unset !important;
+}
+.dropBox.textArea_feedback.helpSupport input {
+  height: 52px;
+  border-radius: 17px;
+}
+
+.help_support_fileupload {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  height: 60px;
+  width: 100%;
+  border: 2px solid #f2f0f9;
+  border-radius: 17px;
+}
+textarea.helpSupport_TextArea {
+  /* height: unset  !important; */
+  border-radius: 15px;
+  padding: 10px 10px;
+  border: 2px solid #f2f0f9 !important;
+  font-family: "Cabin";
+  padding: 20px;
+}
+
+button.helpSupport_btn.inActive {
+  background-color: #f4f1fc;
+  color: #22003b75;
+}
+.helpSupport_btn {
+  text-align: left;
+  padding-left: 30px;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus {
+  box-shadow: unset !important;
+}
+
+.helpSupport_btn.active {
+  background-color: #ffffff !important;
+  color: #22003b !important;
+  border-color: #ffffff !important;
+}
+
+.a-center {
+  align-items: center;
+}
+.j-center {
+  justify-content: center;
+}
+
+.custom_input.col {
+  border: 1px solid gray;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+}
+
+.custom_input.col > label {
+  width: 44%;
+  text-align: end;
+}
+.manageTripModal_addTrip input.changeTrip_input::placeholder {
+  font-family: "Cabin";
+}
+
+.custom_input label {
+  font-family: "Cabin";
+  font-weight: 700;
+  opacity: 0.6;
+}
+.custom_input.col > input {
+  border: 0;
+}
+
+.custom_input.col label {
+  margin: 0;
+}
+
+.custom_input input.changeTrip_input:focus-visible {
+  outline: unset;
+}
+
+.custom_input.col {
+  width: 95%;
+  margin: auto;
+}
+
+.scoll_add_viewPast {
+  overflow-y: scroll;
+  height: 688px !important;
+}
+.mar_b_50 {
+  margin-bottom: 50px !important;
+  padding: 25px 30px 20px 30px !important;
+  margin-bottom: 19px !important;
+}
+.reset_btn {
+  width: 100%;
+  height: 74px;
+  border-radius: 15px;
+  margin: auto;
+  background: #f5f3fb;
+  border-color: #f5f3fb;
+  font-size: 20px;
+  font-family: "cabin";
+  color: #5c38c4;
+}
+
+.innerDiv_fileUpload {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  right: 47%;
+  align-items: center;
+  position: absolute;
+}
+.file_upload_form3rd[type="file"] {
+  display: none;
+}
+.bold {
+  font-weight: 700;
+}
+.css-194a1fa-MuiSelect-select-MuiInputBase-input:focus {
+  background-color: transparent;
+}
+.black {
+  color: #22003b !important;
+}
+.fade-40 {
+  opacity: 0.4;
+}
+
+.btn_bar {
+  background-color: #faf9ff;
+  max-width: 96%;
+  width: 100%;
+  margin-left: auto;
+  padding: 25px 50px 0px 66px;
+}
+
+/* .upload_btn {
+    background-color: #f0f0f0;
+    width: 165px;
+    border-radius: 10px;
+    height: 42px;
+} */
+
+.dropBox.textArea_feedback.helpSupport > div {
+  margin: 0;
+}
+
+.logo_not_open {
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: baseline;
+}
+
+img.img-fluid.navLogoIcon {
+  margin-right: 10px;
+}
+
+img.img-fluid.icon_changed {
+  width: 30px !important;
+}
+
+.TOOL_TIP::before {
+  display: none !important;
+}
+.TOOL_TIP::after {
+  display: none !important;
+}
+
+p.logo_font {
+  font-size: 30px;
+  font-family: "newFont";
+  font-weight: 900;
+  margin: 0;
+  color: #22003b !important;
+}
+img.img-fluid.icon_changed {
+  margin-left: 6px;
+}
+
+.newStepper_icons {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #5c38c4;
+  height: 50px;
+  background-color: #fff;
+  z-index: 1;
+  border-radius: 6px;
+}
+
+section.current-trip {
+  width: 96%;
+  margin-left: auto;
+  /* height: 100vh; */
+}
+
+.sideBarNavLink span {
+  color: #22003b;
+  opacity: 0.65;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  font-family: "Cabin";
+}
+.sideBarNavLinkBoldText span {
+  font-weight: bold !important;
+}
+.navHeaderIconBtn svg {
+  background-color: #f7f8fd;
+  border-radius: 8px;
+  fill: #5c38c4;
+}
+button:focus {
+  outline: none !important;
+}
+.centered-b.top-mar.col-md-7 {
+  margin-top: 80px;
+}
+
+.home_header_color {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home_header_row.row {
+  background-color: white;
+  border-radius: 17px;
+  margin: 40px 50px 19px;
+  padding: 20px 0px;
+}
+.circle1 {
+  width: 8px;
+  height: 8px;
+  background: #5c38c4;
+  border-radius: 50%;
+  z-index: 99999 !important;
+}
+.inactive .circle1 {
+  background-color: #f1f1f1;
+  border: 1px solid #bdaced;
+}
+
+td.MuiTableCell-root.MuiTableCell-body.active {
+  position: relative;
+  z-index: 99999;
+}
+
+td.MuiTableCell-root.MuiTableCell-body.inactive {
+  position: relative;
+  z-index: 99999;
+}
+
+td.MuiTableCell-root.MuiTableCell-body.active:after {
+  content: "";
+  width: 3px;
+  height: 68px;
+  position: absolute;
+  top: 74px;
+  bottom: 0px;
+  background-color: #5c38c4;
+  margin: auto;
+  z-index: 1;
+  left: 24.3%;
+}
+
+.top-pic.bg-color-signin.col-md-6.col-sm-5 {
+  flex: 0 0 45%;
+  max-width: 45%;
+}
+
+.centered-b.top-mar.signin-right-padd.col-md-6 {
+  padding-left: 30px;
+}
+
+/* .__react_component_tooltip{
+  visibility: visible !important;
+
+} */
+
+.__react_component_tooltip.show {
+  visibility: visible !important;
+}
+
+label.mb-3.show_pass.form-label {
+  margin: 0 !important;
+  display: flex;
+  align-items: baseline;
+}
+p.modal_new_setting {
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+.circle1.blue-dot {
+  background: #5c38c4;
+  z-index: 999999 !important;
+}
+td.MuiTableCell-root.MuiTableCell-body.inactive:after {
+  content: "";
+  width: 3px;
+  height: 75px;
+  position: absolute;
+  top: 74px;
+  bottom: 0px;
+  background-color: #f1f1f1;
+  margin: auto;
+  z-index: -2;
+  left: 24.3%;
+}
+
+.font-small {
+  font-size: 12px;
+}
+.fade.StartLoadingModal.width-size.modal.show .modal-content {
+  width: 100%;
+  height: 100%;
+}
+
+.main-separate_inner {
+  display: flex;
+  flex-direction: column;
+}
+button.mb-3.show_btn_hiding.btn.btn-primary {
+  background-color: transparent;
+  border: transparent;
+}
+
+.main-separate {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.th-styling th {
+  color: #22003b;
+  opacity: 0.65;
+  font-family: "cabin";
+  font-weight: 700;
+}
+.customStepperBody .modal-body {
+  padding-top: 0 !important;
+}
+.customStepperModal_heading.row {
+  display: flex;
+  align-items: center;
+}
+
+.customStepperModal_heading.row h3,
+.customStepperModal_heading.row h4 {
+  margin: 0;
+}
+.customStepperModal_heading.row img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.customStepperModal_heading.row h4 {
+  margin-left: 10px;
+  font-size: 18px;
+  font-family: "cabin";
+  opacity: 0.4;
+  color: #000;
+}
+
+.h5 {
+  font-family: "Cabin";
+}
+.modal.fade .modal-dialog {
+  transition: unset;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000;
+  transition: 0.4s ease !important;
+}
+.modal {
+  transform: scale(0);
+}
+.modal.show {
+  transform: scale(1);
+  transition: 0.4s ease !important;
+}
+.popper_hover h5:hover {
+  background-color: #f4f1fc;
+  cursor: pointer;
+}
+
+.popper_hover {
+  font-family: "Cabin";
+  padding: 10px;
+}
+
+.customStepperModal_heading.row h3 {
+  font-size: 20px;
+  font-family: "cabin";
+  font-weight: 700;
+}
+
+.mb-3.singin_footer_first {
+  font-size: 20px;
+  font-family: "cabin";
+  color: #22003b87;
+  font-weight: 500;
+}
+.customStepperBody.modal-header h3 {
+  color: #000;
+}
+
+.fade.logout_modal.modal.show button {
+  width: 170px;
+  height: 52px;
+}
+
+.fade.logout_modal.modal.show .modal-footer {
+  display: flex;
+  justify-content: center;
+}
+.fade.logout_modal.modal.show .modal-body {
+  font-size: 22px;
+  font-family: "Cabin";
+  color: #22003b !important;
+  width: 254px;
+  margin: auto;
+  font-weight: 900;
+}
+
+button.btn.btn-secondary.btn1_logoutModal {
+  background-color: #f5f3fb;
+  color: #5c38c4;
+  border-radius: 12px;
+  font-family: "Cabin";
+  border-color: #f5f3fb;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+button.btn.btn-primary.btn2_logoutModal {
+  background-color: #5c38c4;
+  color: #ffffff;
+  border-radius: 12px;
+  font-family: "Cabin";
+  border-color: #5c38c4;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.fade.logout_modal.modal.show .modal-header {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.fade.logout_modal.modal.show .modal-footer {
+  margin-bottom: 13px;
+}
+
+h3.mb-4.text-left.font-cabin_avo {
+  font-family: "Cabin";
+  color: #22003b !important;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.fade.logout_modal.modal.show .modal-header .close {
+  margin: -1rem -4rem -1rem auto;
+}
+
+.fade.logout_modal.modal.show .modal-content {
+  width: 550px;
+  height: 280px;
+}
+
+.stepper_data_styling td {
+  color: #22003b;
+  font-weight: 700;
+}
+
+.red {
+  color: #d93053;
+  font-family: "cabin";
+}
+span.blue_link.singin_footer_second {
+  font-size: 20px;
+  font-family: "cabin";
+  color: #22003b;
+}
+
+.time_situation {
+  display: flex !important;
+  flex-direction: column !important;
+}
+.time-flex span {
+  margin-right: 5px;
+}
+span.situation_styling {
+  font-size: 14px;
+  color: #4caf50;
+}
+.customStepperBody.modal-header {
+  padding-top: 31px;
+}
+.customeStepperModal_time.col-md-2 span {
+  font-size: 18px;
+  opacity: 0.4;
+  font-weight: 500;
+  color: #000;
+  font-family: "cabin";
+}
+
+td {
+  border-bottom: 0 !important;
+}
+tr.MuiTableRow-root {
+  height: 75px;
+}
+nav {
+  font-family: "cabin";
+  background-color: #ffffff;
+  border-radius: 0px;
+  padding: 1% 2% !important;
+}
+
+.td-fonts-stepper {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  font-family: "cabin" !important;
+}
+.headerCheckInText {
+  margin-top: 8px;
+  font-family: "cabin";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.015em;
+  color: #22003b;
+}
+.headerLoginTimeText {
+  font-family: "cabin";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  color: #22003b;
+
+  opacity: 0.6;
+}
+.nav_padding {
+  padding: 0;
+}
+
+.current-trip {
+  background-color: #faf9ff;
+}
+
+.currentTripMiddle {
+  padding: 40px 70px;
+  background: white;
+  border-radius: 17px;
+  margin: 10px 50px;
+}
+.statusContainer {
+  padding: 15px 40px;
+  background: white;
+  border-radius: 17px;
+  margin: 10px 50px;
+  height: 250px;
+}
+.stepform-main {
+  position: relative;
+}
+.stepform-main
+  .MuiPaper-root.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.MuiPaper-elevation0 {
+  background-color: white !important;
+}
+
+.stepform-main .MuiStepConnector-alternativeLabel {
+  top: 10px;
+  left: calc(-50% + 12px);
+  right: calc(50% + 12px);
+  position: absolute;
+}
+
+.stepform-main .MuiStepIcon-text {
+  /* fill: #fff; */
+  font-size: 0;
+  font-family: "cabin";
+  /* font-family: "Roboto", "Helvetica", "Arial", sans-serif; */
+}
+
+.stepform-main .MuiStepIcon-root {
+  color: white;
+  border: 1px solid #044d81;
+  border-radius: 20px;
+  width: 25%;
+  height: auto;
+}
+
+.stepform-main .MuiStepper-root {
+  display: flex;
+  padding: 24px 224px;
+}
+
+.stepform-main .MuiStepConnector-lineHorizontal {
+  border-top: 1.5px solid rgba(0, 0, 0, 0.2);
+}
+
+.stepform-main .MuiStepIcon-root.MuiStepIcon-active {
+  color: #044d81;
+  border: 1px solid white !important;
+}
+
+.stepform-main
+  .MuiStepConnector-active
+  .MuiStepConnector-line.MuiStepConnector-lineHorizontal {
+  background-color: #044d81 !important;
+}
+
+.stepform-main
+  .MuiStepConnector-completed
+  .MuiStepConnector-line.MuiStepConnector-lineHorizontal {
+  background-color: #044d81 !important;
+}
+
+.stepform-main .MuiStepIcon-root.MuiStepIcon-completed {
+  color: white;
+}
+
+.statusStepper.isShowStatus.activityActivated {
+  height: 137px;
+  margin-top: 33px;
+}
+
+.statusStepper.isShowStatus.activityActivated > div {
+  /* height: 100%;     */
+}
+
+.col-md-12.tripLoggedContainer.actvityLog {
+  position: absolute;
+  bottom: -22px;
+}
+
+.statusStepper.isShowStatus.activityActivated {
+  position: relative;
+}
+/* nav bar right */
+.nav_right .nav_right_date {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  /* height: 39px;
+  width: 171px;
+  left: 916px;
+  top: 58px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+  text-align: right;
+  color: #22003b; */
+}
+.nav_right .nav_right_date > span {
+  width: max-content;
+  color: #22003b;
+  line-height: 1.3;
+  font-family: "Cabin";
+}
+
+.nav_right .nav_right_select .client-select {
+  font-size: 20px;
+  background: #f7f8fd;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #22003b;
+  border-radius: 7px;
+  border: 0;
+  /* padding: 0px 15px; */
+  padding: 15px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_right .nav_right_select > svg {
+  fill: #22003b;
+}
+.nav_right .nav_right_select .client-select > p {
+  margin-bottom: 0;
+  margin-left: 10px;
+  font-family: "Cabin";
+}
+/* second sec */
+
+.hero1_content_inner_img {
+  height: 64px;
+  width: 64px;
+  left: 387px;
+  top: 155px;
+  background: #faf9ff;
+  border-radius: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.trip-detail-component {
+  background-color: white;
+  border-radius: 17px;
+  margin: 40px 50px 19px;
+  padding: 20px 0px;
+}
+.hero1_content_inner_data.text-left.ml-4 {
+  display: flex;
+  flex-direction: column;
+  height: 64px;
+  justify-content: center;
+}
+
+.trip-detail-component .hero1 .hero1_content .hero1_content_inner_data h4 {
+  font-family: "Cabin";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  /* line-height: 22px; */
+  line-height: 35px !important;
+  /* identical to box height */
+  letter-spacing: 0.015em;
+  color: #000000;
+  margin: 0;
+  opacity: 0.4;
+  /* color: pink; */
+}
+
+.trip-detail-component .hero1 .hero1_content .hero1_content_inner_data > p {
+  font-family: "cabin";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 23px;
+  /* identical to box height */
+  letter-spacing: 0.015em;
+  color: #000000;
+  margin: 0;
+  /* color: orange; */
+}
+
+.trip-detail-component
+  .hero1
+  .hero1_content
+  .hero1_content_inner_data
+  p.hci_p3 {
+  /* position: absolute; */
+  /* width: 101px; */
+  height: 23px;
+  left: 1087px;
+  top: 185px;
+  font-family: "cabin";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 23px;
+  /* identical to box height */
+  letter-spacing: 0.015em;
+  margin: 0;
+}
+
+/* hero middle */
+
+.currentTripMiddleContentHeading .statusButtonContainer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.currentTripMiddleContentEndBtn > button,
+.currentTripMiddleContentEndBtn > button:hover {
+  font-size: 20px;
+  padding: 10px 22px;
+  width: auto;
+}
+
+.currentTripMiddleContentHeading .statusButtonContainer > div {
+  width: 28%;
+  text-align: left;
+}
+.currentTripMiddleContentHeading > h1 {
+  /* color: orange; */ /* width: 558px; */
+  height: 37px;
+  left: 541px;
+  top: 292px;
+  font-family: "cabin";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.03em;
+  color: #22003b;
+  opacity: 0.5;
+}
+
+.currentTripMiddleContentHeading > button {
+  width: 514px;
+  background: #5c38c4;
+  color: white;
+  border-radius: 17px;
+  font-family: "cabin";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: #ffffff;
+}
+
+.currentTripMiddleContentEndBtn button,
+.currentTripMiddleContentEndBtn button:hover,
+.currentTripMiddleContentEndBtn button:focus,
+.currentTripMiddleContentEndBtn button:active {
+  /* color: orange; */
+  width: 146px;
+  height: 50px;
+  left: 400px;
+  top: 470px;
+  background: #f0f0f0;
+  border-radius: 6px;
+  font-family: "cabin";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #4caf50;
+  border: 0;
+  box-shadow: none;
+}
+
+.currentTripMiddleContentEndBtn .delay-btn,
+.currentTripMiddleContentEndBtn .delay-btn:hover,
+.currentTripMiddleContentEndBtn .delay-btn:focus,
+.currentTripMiddleContentEndBtn .delay-btn:active {
+  height: 50px;
+  left: 400px;
+  top: 470px;
+  background: rgba(215, 177, 105, 0.11) !important;
+  border-radius: 6px;
+  font-family: "cabin";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #af4c4c !important;
+  border: 0;
+  box-shadow: none;
+}
+.issueInput {
+  height: 70px !important;
+  border-radius: 17px;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  font-size: 16px;
+  padding: 10px 26px 10px 12px;
+}
+
+.step_icon {
+  width: auto;
+  border: 1px solid #5c38c4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  position: absolute;
+  padding: 10%;
+  background: #fff;
+  z-index: 1;
+  margin-left: -20px;
+}
+
+span.tripLoggedTitle {
+  margin-left: 22px;
+}
+.current_status {
+  border: 0;
+  margin-bottom: 12px;
+  /* margin-left: 37px; */
+}
+
+.current_status .card {
+  border: 0;
+  background: none;
+}
+
+.current_status .card h2 {
+  color: #22003b;
+  font-size: 20px;
+  font-family: "cabin";
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.current_status .card .status {
+  font-size: 14px;
+  color: #4caf50;
+  font-family: "cabin";
+  font-style: normal;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.current_status .card .accordion_arrow {
+  margin-left: auto;
+}
+
+.tripLoggedContainer span {
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #22003b;
+}
+.tripLoggedContainer .tripLoggedTitle {
+  font-weight: bold;
+}
+.tripLoggedContainer .tripLoggedTime {
+  padding-left: 25px;
+  opacity: 0.5;
+}
+.tripLoggedContainer .tripStatus {
+  float: right;
+  color: #6236cc;
+  font-family: "cabin";
+  font-weight: 400 !important;
+  font-size: 15px;
+  text-decoration: underline;
+}
+.stepperContainer div div span .MuiStepLabel-labelContainer span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  color: #22003b;
+  width: max-content;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.stepperContainer div div span .MuiStepLabel-labelContainer span .title {
+  color: #b5b5b5;
+}
+.stepperContainer div div span .MuiStepLabel-labelContainer span .time {
+  opacity: 0.5;
+}
+span.tripStatus {
+  cursor: pointer;
+}
+span.tripStatus.margin {
+  margin-bottom: 12px;
+}
+.darken-Loading {
+  /* background-color: #e1eff5; */
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* New */
+h2.mb-0.colors-b {
+  color: #6236cc;
+  font-size: 20px;
+  font-family: "cabin";
+}
+span.feedback_text {
+  color: #22003b;
+  font-family: "Cabin";
+}
+.timeline-steps .timeline-step.image .inner-circle > .img_div {
+  background: white;
+  height: 2.5rem;
+  width: 2.5rem;
+  object-fit: contain;
+  z-index: 999;
+  border: 2px solid #673ab7;
+  border-radius: 10px;
+  position: absolute;
+  top: -3px;
+  padding: 5px;
+}
+
+.activity_stepper_sec {
+  font-family: "cabin";
+  color: #918c8c;
+  font-size: 12px;
+}
+.activity_stepper_title {
+  font-family: "cabin";
+  color: #22003b;
+  font-size: 16px;
+  font-weight: 700 !important;
+}
+.activity_stepper_time {
+  font-family: "cabin";
+  color: #22003b;
+  font-size: 12px;
+  font-weight: 700 !important;
+}
+.hero1.d-flex.flex-row.justify-content-between.p-3 {
+  max-width: 1695px;
+  margin: auto;
+  padding: 1rem 3rem !important;
+}
+.timeline-steps .timeline-step.image.active .inner-circle > .img_div {
+  border-color: #673ab7;
+}
+
+.timeline-steps .timeline-step.image:first-child .img_div > img,
+.timeline-steps .timeline-step.image:last-child .img_div > img {
+  width: 18px;
+}
+.currentTripMiddleContentEndBtn {
+  display: flex;
+  /* max-width: 80.5%; */
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.hero1_content:last-child
+  > .hero1_content_inner_data
+  > .hero1_content_inner_data
+  > p {
+  text-decoration: underline;
+}
+.red_arrow_color {
+  color: #c43838;
+  font-family: "cabin";
+  font-size: 18px;
+}
+.currentTripMiddle .statusButtonContainer button {
+  margin: 3% 0;
+  width: 592px;
+  border-radius: 17px;
+  background: #6236cc;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 50px;
+}
+.currentTripMiddle .statusButtonContainer button span {
+  font-style: normal;
+  font-family: "cabin";
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: #ffffff;
+}
+.currentTripMiddle .statusButtonContainer button img {
+  margin-right: 20px;
+}
+
+.currentTripMiddle .statusButtonContainer .recallAction {
+  color: #ed074f;
+  font-weight: 700;
+  align-items: center;
+  /* width: 14%; */
+  display: flex;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 31px;
+  letter-spacing: 0.015em;
+  margin-left: 25px;
+  margin-bottom: 0;
+}
+
+.currentTripMiddle .statusButtonContainer .recallAction > svg {
+  margin-right: 10px;
+}
+
+/* .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border: 0px !important;
+  border-width: 0px !important;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border: 0px !important;
+  border-width: 0px !important;
+} */
+ul.navbar-nav > li > div > fieldset {
+  border: 0px !important;
+  border-width: 0px !important;
+}
+.css-6hp17o-MuiList-root-MuiMenu-list {
+  width: 160.77px;
+}
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  padding: 10px 16px !important;
+  font-weight: 700 !important;
+  color: #22003b !important;
+}
+
+.trip-detail-component .hero1_content .hero1_content_inner_img > img {
+  object-fit: contain;
+  width: auto;
+}
+.navbar-light .navbar-brand > p {
+  margin-bottom: 0;
+  font-family: "cabin";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #6236cc;
+}
+.navbar-light .navbar-brand {
+  padding: 0;
+}
+.trip-detail-component .hero1_content_inner_data > img {
+  object-fit: contain;
+}
+
+.MuiStep-root > .MuiStepLabel-root {
+  position: relative;
+}
+.MuiStep-root > .MuiStepLabel-root > .MuiStepLabel-labelContainer {
+  position: absolute;
+  top: 100%;
+  left: -40%;
+}
+
+.MuiStep-root.MuiStep-horizontal:last-child
+  .MuiStepLabel-root
+  > span:last-child {
+  left: -15%;
+}
+
+tr.MuiTableRow-root:last-child .inactive:after {
+  display: none !important;
+}
+
+.current_status .card .accordion_arrow {
+  width: 40px;
+  height: 40px;
+  padding: 6px 6px;
+  background-color: #f7f8fd;
+  border-radius: 10px;
+}
+
+.current_status .card .accordion_arrow:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 50%;
+}
+
+.MuiStep-root
+  > .MuiStepLabel-root
+  > .MuiStepLabel-iconContainer
+  > .css-19z1lck
+  > .step_icon {
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  margin: -15px;
+}
+.MuiStep-root
+  .css-j41d1b-MuiStepConnector-root.MuiStepConnector-alternativeLabel {
+  left: calc(-50% + 20px);
+  right: calc(50% + 20px);
+}
+.MuiStep-root
+  > .MuiStepLabel-root
+  > .MuiStepLabel-iconContainer
+  > .css-19z1lck
+  > .step_icon
+  > img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+/* .statusContainer .css-1had6fq-MuiStack-root { padding: 40px 0px 90px;} */
+.statusContainer .stepperContainer {
+  padding: 40px 0px 90px;
+}
+/* .statusContainer div div div span{
+  
+} */
+
+.sideBarNavLink img {
+  width: 20px;
+  /* height: 21px; */
+  object-fit: contain;
+}
+.sideBarNavLink img.currentTripIcon {
+  width: 30px;
+}
+.statusStepper {
+  opacity: 0;
+  max-height: 0;
+  transition: max-height 0.5s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+.statusStepper.isShowStatus {
+  opacity: 1;
+  max-height: 100%;
+  transition: max-height 0.3s ease-in-out, opacity 0.8s ease-in-out;
+}
+.navHeaderIconBtn .navLogoIcon {
+  width: 30px;
+  object-fit: contain;
+  height: auto;
+}
+.drawerContainer > div {
+  border-right: 1px solid #f7f8fd !important;
+}
+.dropdown-menu {
+  position: fixed !important;
+
+  transform: translate(48px, 133px) !important;
+  border-left: none !important;
+}
+
+/*new Css */
+.statusContainer.stepperOpen span.tripLoggedTitle {
+  margin-left: 10px;
+}
+
+.statusContainer.stepperOpen
+  .timeline-steps.aos-init.aos-animate
+  div4.timeline-step.image.active
+  .timeline-content
+  .desc {
+  /* margin-left: 98px; */
+}
+
+/* .statusContainer.stepperOpen .current_status {
+  margin-left: 25px;
+} */
+
+.currentTripMiddleContentHeading.text-center.stepperOpen
+  .col-md-12.statusButtonContainer {
+  /* margin-left: 45px; */
+  transition: 0.3s all ease-in-out;
+}
+/* .TOOL_TIP {
+  background-color: #f5f5f5 !important;
+  left: 65px !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  color: #22003b !important;
+  opacity: 0.65 !important;
+  font-style: normal;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  font-family: "Cabin";
+  padding-left: 0 !important;
+} */
+
+.TOOL_TIP {
+  background-color: #f5f5f5 !important;
+  left: 61px !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: 43px;
+  color: #22003b !important;
+  opacity: 0.65 !important;
+  font-style: normal;
+  font-size: 16px !important;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  font-family: "Cabin";
+  padding-left: 0 !important;
+}
+
+img.img-fluid.icon_changed1 {
+  margin-left: 7px;
+}
+
+img.img-fluid.navLogoIcon {
+  margin-left: -4px;
+}
+.currentTripMiddleContentHeading.text-center.stepperClose
+  .col-md-12.statusButtonContainer {
+  transition: 0.3s all ease-in-out;
+}
+span.color_gray {
+  color: #ffffff;
+  opacity: 0.75;
+}
+
+.logo_section {
+  margin-top: 15px;
+}
+section.current-trip {
+  height: 100vh;
+}
+
+span.MuiStepLabel-root.MuiStepLabel-horizontal.Mui-disabled.MuiStepLabel-alternativeLabel {
+  margin: auto !important;
+}
+button.btn_manageTrip.btn.btn-primary {
+  /* width: 248px;
+   */
+  width: 100%;
+  height: 72px;
+  border-radius: 15px;
+  background-color: #5c38c4;
+  font-family: "Cabin";
+  font-size: 25px;
+}
+.cardMain h5 {
+  font-size: 20px;
+  opacity: 0.6;
+  font-family: "Cabin";
+  font-weight: 500;
+}
+.cardMain h6 {
+  font-size: 20px;
+  font-family: "Cabin";
+  font-weight: 500;
+}
+
+.f_row_bg_color.row h3 {
+  font-size: 30px;
+  font-family: "Cabin";
+  font-weight: 700;
+}
+.f_row_bg_color.row h4 {
+  font-size: 30px;
+  font-family: "Cabin";
+  font-weight: 400;
+}
+.ThirdRow.row {
+  margin-top: 80px;
+}
+.SecondRow.row {
+  margin-top: 80px;
+}
+.btn-style {
+  color: #22003b;
+  font-family: "cabin";
+}
+.active-btn {
+  background-color: #ffffff;
+  color: #22003b;
+}
+.inactive-btn {
+  background-color: #f4f1fc;
+  color: #22003b75;
+}
+button.active-btn.btn-style.btn.btn-primary {
+  text-align: left;
+  padding-left: 30px;
+}
+
+button.active-btn.btn-style.btn2-margin.btn.btn-primary {
+  text-align: left;
+  width: 345px;
+  padding-left: 30px;
+}
+
+button.inactive-btn.btn-style.btn.btn-primary {
+  text-align: left;
+  padding-left: 30px;
+}
+
+button.inactive-btn.btn-style.btn2-margin.btn.btn-primary {
+  text-align: left;
+  width: 345px;
+  padding-left: 30px;
+}
+.btn2-margin {
+  /* height: 70px !important; */
+}
+.ManageTrip {
+  width: 100%;
+  max-width: 96%;
+  background-color: #faf9ff;
+  height: 100vh;
+  margin-left: auto;
+}
+.feedBack {
+  margin: 0px 50px 19px;
+  background-color: #fff;
+  padding: 25px 50px 20px 50px;
+  border-radius: 15px;
+}
+
+.cardManageTrip {
+  margin: 50px 50px 19px;
+  background-color: #fff;
+  padding: 25px 50px 20px 50px;
+  border-radius: 15px;
+}
+.img-bg {
+  background-color: #faf9ff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 16px;
+}
+.row-0.row button {
+  border-radius: 13px 13px 0px 0px;
+}
+
+.row-0.row .btn-primary:not(:disabled):not(.disabled):visited {
+  color: #000;
+  background-color: #f4f1fc;
+  border-color: #f4f1fc;
+  opacity: 40%;
+}
+
+.d-flex.title-div {
+  align-items: flex-start;
+}
+.d-flex.title-div > img {
+  margin-right: 20px;
+}
+.d-flex.title-div h3 {
+  font-size: 18px;
+  opacity: 85;
+  color: #22003b;
+  font-family: "cabin";
+  font-weight: 700;
+  margin: 0;
+  margin-right: 15px;
+  position: relative;
+}
+
+.drop1_new > div {
+  border-radius: 17px !important;
+  height: 74px !important;
+  display: flex;
+  align-items: center;
+  padding: 0 !important;
+  padding-left: 20px !important;
+  font-family: "Cabin" !important;
+  font-size: 16px !important;
+  border: 2px solid #f2f0f9 !important;
+}
+
+.drop1_new svg {
+  margin-right: 20px !important;
+  font-size: 44px !important;
+  color: #5c38c4 !important;
+}
+
+.MuiMenu-list {
+  width: 100%;
+}
+.custom_input input.changeTrip_input::placeholder {
+  color: #22003b !important;
+  font-weight: 700;
+}
+
+.manageTripModal_addTrip input.changeTrip_input {
+  text-align: left;
+  width: 50% !important;
+  border-radius: 9px;
+  height: 60px;
+  font-family: "Cabin";
+}
+
+.manageTripModal_addTrip .modal-title.h4 {
+  text-align: center;
+  font-family: "Cabin";
+}
+
+.fade.manageTripModal_addTrip.modal.show .modal-body {
+  padding-top: 40px;
+}
+.manageTripModal_addTrip .modal-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.manageTripModal_addTrip button.btn.btn-secondary {
+  width: 41%;
+  height: 64px;
+  border-radius: 15px;
+  background-color: #f4f1fc;
+  border-color: #f4f1fc;
+  color: #5c38c4;
+  font-weight: 700;
+  margin-right: 10px;
+  font-family: "Cabin";
+  font-size: 20px;
+}
+.j-between {
+  justify-content: space-between;
+}
+.fade.manageTripModal_addTrip.modal.show .modal-header,
+.modal-footer {
+  border: 0;
+  padding-top: 0;
+}
+.cus_header {
+  width: 100%;
+  max-width: 96%;
+  margin-left: auto;
+}
+.manageTripModal_addTrip button.btn.btn-primary {
+  width: 41%;
+  height: 64px;
+  border-radius: 15px;
+  font-weight: 700;
+  margin-left: 10px;
+  background-color: #5c38c4;
+  font-family: "Cabin";
+  font-size: 20px;
+}
+.feedBack.d-flex .row-01.row {
+  margin-right: 15px;
+}
+
+.d-flex.title-div h4 {
+  font-size: 18px;
+  color: #6236cc;
+  font-family: "cabin";
+  margin: 0;
+}
+
+.FourthRow.row {
+  margin-top: 63px;
+}
+.firstRow.row h2 {
+  margin: 0;
+}
+
+.firstRow.row {
+  display: flex;
+  align-items: center;
+}
+
+.FourthRow.row p {
+  font-size: 20px;
+  margin-left: 20px;
+}
+.FeedBack .dropBox {
+  display: flex;
+  flex-direction: column;
+}
+textarea.FeedBack_TextArea {
+  /* height: 200px !important; */
+  border-radius: 15px;
+  padding: 10px 10px;
+  border: 2px solid #f2f0f9 !important;
+}
+button.helpSupport_btn {
+  font-family: "Cabin";
+}
+
+input#bootstrap-input {
+  font-family: "Cabin";
+}
+
+textarea.helpSupport_TextArea {
+  font-family: "Cabin";
+}
+
+.row-0.btn-styling-row-0.row button {
+  width: 280px;
+  height: 76px;
+  border: 0;
+  font-size: 24px;
+}
+button.feedBack.Btn.btn.btn-primary {
+  width: 100%;
+  height: 74px;
+  border-radius: 15px;
+  margin: auto;
+  background: #5c38c4;
+  font-size: 20px;
+  font-family: "cabin";
+}
+
+.FeedBack .row-2,
+.FeedBack .row-3,
+.FeedBack .row-4 {
+  margin-top: 20px;
+}
+
+.FeedBack .row-0.row {
+  height: 100%;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.FeedBack {
+  width: 100%;
+  max-width: 96%;
+  background-color: #faf9ff;
+  height: 100vh;
+  margin-left: auto;
+}
+.cardMain {
+  display: flex;
+  align-items: center;
+}
+.f_row_bg_color.row {
+  background-color: rgba(92, 56, 196, 0.06);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.f_row_bg_color.row h3 {
+  margin: 0;
+}
+.checkBox_modal.modal-header > button {
+  display: none;
+}
+p.checkbox_modal_footer_content {
+  width: 628px;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 25px;
+}
+
+p#modal-modal-description\ feedback-style {
+  font-size: 30px;
+  font-family: "cabin";
+}
+.f_row_bg_color.row h4 {
+  margin: 0;
+}
+
+.firstRow.row {
+  margin-bottom: 50px;
+}
+.pl-5.main-div-modal p {
+  margin: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fade.modal_main.checkbox-modal.modal.show button {
+  width: 200px;
+  height: 64px;
+  border-radius: 17px;
+  margin-right: 30px;
+  background-color: #5c38c4;
+}
+
+.fade.modal_main.checkbox-modal.modal.show .modal-footer {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: "Cabin";
+}
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.fade.customStepperStyling.modal.show .modal-dialog {
+  position: unset;
+  top: initial;
+  left: initial;
+  transform: unset;
+}
+.red {
+  color: #dd2b47 !important;
+}
+
+.okok h3 {
+  font-family: "Cabin";
+  font-size: 30px;
+  color: #22003b;
+  font-weight: 400;
+}
+
+button.mt-4.home_section_button.btn.btn-primary {
+  font-family: "Cabin";
+  font-size: 30px !important;
+  color: #e5e5e5;
+  margin: 0 !important;
+}
+.fade.StartLoadingModal.modal.show .modal-content {
+  border-radius: 0rem !important;
+}
+
+h3.pt-4.pb-4.blue_link.styling-timing {
+  color: #6236cc;
+  font-size: 30px;
+  font-family: "Cabin";
+}
+
+.box_size h3 {
+  font-family: "Cabin";
+  font-size: 25px;
+  color: #101010;
+}
+
+.fade.modal_main.checkbox-modal.modal.show .modal-dialog {
+  height: 538px;
+  width: 744px;
+}
+
+.fade.StartLoadingModal.modal.show .modal-dialog {
+  width: 624px;
+  -webkit-transform: translate(-50%, -50%) !important;
+  transform: translate(-50%, -50%) !important;
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+}
+.fade.StartLoadingModal.modal.show .modal-footer > button {
+  margin-right: 10px;
+}
+
+.fade.StartLoadingModal.modal.show .text-center.modal-body {
+  font-size: 30px !important;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 20px;
+  font-family: "cabin";
+  color: #161516;
+  opacity: 0.5 !important;
+}
+
+.d-flex.logoAndTitle.text-center {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.d-flex.logoAndTitle.text-center p {
+  font-size: 40px;
+  color: #6236cc;
+  font-family: "cabin";
+  margin-left: 30px;
+}
+.d-flex.logoAndTitle.text-center img {
+  margin-right: 15px;
+}
+.d-flex.logoAndTitle.text-center img {
+  margin-right: 15px;
+}
+
+.modal-content {
+  border-radius: 1.2rem;
+}
+.fade.StartLoadingModal.modal.show .text-center.modal-body {
+}
+
+.fade.timer_modal.modal.show .text-center.content {
+  font-size: 30px;
+  margin-top: 20px;
+  font-family: "cabin";
+  color: #404041;
+  margin-left: 96px;
+}
+
+.fade.timer_modal.modal.show .modal-content {
+  height: 417px !important;
+  width: 850px !important;
+}
+
+.fade.timer_modal.modal.show .modal-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fade.StartLoadingModal.modal.show .modal-footer button {
+  width: 204px;
+  border-radius: 17px;
+  height: 67px;
+  background-color: #5c38c4;
+  font-size: 35px;
+  font-family: "cabin";
+}
+.fade.StartLoadingModal.modal.show .modal-footer {
+  display: flex;
+  justify-content: center;
+}
+.fade.StartLoadingModal.modal.show .modal.show .modal-dialog {
+}
+img.arrowDiv {
+  margin: 0 !important;
+  padding: 0px 15px;
+}
+.cardManageTrip .FourthRow.row p {
+  font-family: "cabin";
+  font-weight: 700;
+  font-size: 20px;
+}
+.blue_link {
+  color: #5c38c4 !important;
+}
+
+select#trip,
+select#category {
+  height: 74px;
+  border-radius: 17px;
+  border: 2px solid #f2f0f9;
+  padding: 20px;
+  font-family: "Cabin";
+}
+textarea.FeedBack_TextArea {
+  font-family: "Cabin";
+}
+
+h3.feedback_heading {
+  color: #22003b;
+  font-size: 24px;
+  font-family: "Cabin";
+  font-weight: 400;
+}
+
+.dropBox.box1 label,
+.dropBox.box2 label {
+  font-size: 18px;
+  color: #22003b;
+  font-family: "Cabin";
+  font-weight: 500;
+}
+
+.dropBox.textArea_feedback label {
+  font-family: "Cabin";
+  font-weight: 500;
+  font-size: 18px;
+  color: #22003b;
+}
+
+textarea.FeedBack_TextArea {
+  padding: 20px;
+}
+.modal_header_border.modal-header {
+  border-bottom: 0 !important;
+}
+
+.checkBox_modal.modal-header {
+  border: 0 !important;
+}
+.secondModalRow {
+  font-size: 30px;
+  margin-top: 50px;
+  font-family: "cabin";
+  color: #22003b;
+}
+.thirdModalRow {
+  font-size: 25px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  color: #101010 !important;
+  font-family: "cabin";
+}
+
+.checkbox_title_modal.modal-title.h4 {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "cabin";
+}
+
+.checkbox_desc_modal .d-flex p {
+  font-size: 20px;
+  color: #000000a1;
+  font-family: "cabin";
+}
+
+.checkbox_button_modal.modal-footer button {
+  font-size: 30px;
+  font-family: "cabin";
+  font-weight: 400;
+}
+
+p.checkbox_modal_footer_content {
+  color: #101010;
+  font-size: 20px;
+  font-family: "cabin";
+  font-weight: 500;
+}
+
+.logoModalDiv img {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+select#trip,
+select#category {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+}
+span.underline {
+  text-decoration: underline;
+}
+/* .dropBox.box1::before {
+  content: "";
+  display: block;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAJCAYAAADU6McMAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADFSURBVHgBnZBRCoJAEIZnB6EbhUUKe4N6X6hOkJ0gvYHdwGCrxzyC6IPSk0foCL4Ehei2KwRmLpT/y+z8/8zHMoSN4zkgXmCgKoIL5Fc7rKFewwAJAttzOg1RNafMDqTlwV8S3jGd+epF2jYzE1dau18APLPcd0e6MZskvvznRrtPxJ6nlvNh9c0xMw4AcPmd1Aee2auui30Q41E5ICBve/KIeR9ACwlyWhjPkgqAWwOQ9T4qKWiEukCBKmgWI1XDiBa62RcgWkQTLPfIGwAAAABJRU5ErkJggg==);
+  background-repeat: no-repeat;
+  height: 9px;
+  width: 17px;
+  background-size: cover;
+  position: absolute;
+  bottom: 30%;
+  right: 31px;
+  z-index: 1;
+} */
+
+/* .btn-primary:hover {
+  background-color: #a5acb3d1 !important;
+}    */
+
+.fifty {
+  width: 50%;
+  text-align: center;
+}
+button.signinBtn1.btn.btn-primary:hover {
+  background-color: #f5f3fb;
+  color: #5c38c4;
+}
+button.inactive-btn.btn-style.btn.btn-primary:hover {
+  background-color: #a5acb3d1 !important;
+}
+input#formBasicEmail {
+  font-size: 20px;
+  font-family: "Cabin";
+  font-weight: 500;
+}
+button.active-btn.btn-style.btn.btn-primary:hover {
+  background-color: #a5acb3d1 !important;
+}
+.navHeaderIconBtn:hover {
+  background-color: #fff !important;
+}
+/* .dropBox.box2::before {
+  content: "";
+  display: block;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAJCAYAAADU6McMAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADFSURBVHgBnZBRCoJAEIZnB6EbhUUKe4N6X6hOkJ0gvYHdwGCrxzyC6IPSk0foCL4Ehei2KwRmLpT/y+z8/8zHMoSN4zkgXmCgKoIL5Fc7rKFewwAJAttzOg1RNafMDqTlwV8S3jGd+epF2jYzE1dau18APLPcd0e6MZskvvznRrtPxJ6nlvNh9c0xMw4AcPmd1Aee2auui30Q41E5ICBve/KIeR9ACwlyWhjPkgqAWwOQ9T4qKWiEukCBKmgWI1XDiBa62RcgWkQTLPfIGwAAAABJRU5ErkJggg==);
+  background-repeat: no-repeat;
+  height: 9px;
+  width: 17px;
+  background-size: cover;
+  position: absolute;
+  bottom: 30%;
+  right: 31px;
+  z-index: 1;
+} */
+.img_div {
+  text-align: center;
+}
+.notification_Container.container-fluid {
+  margin-top: 24px;
+}
+
+.scoll_add {
+  overflow-y: scroll;
+  height: 518px !important;
+}
+.d-flex.title-div.feeback2_main_div .d-flex {
+  align-items: center;
+}
+.color_three_dots {
+  line-height: 1;
+}
+.fade.modal-backdrop.show {
+  transition: 0.4s ease !important;
+}
+.modal-backdrop {
+  transition: 0.4s ease !important;
+}
+.color_three_dots svg {
+  color: #c4c4c4;
+  cursor: pointer;
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  border: 5px solid #311b66;
+  padding: 25px;
+  border-radius: 10px;
+}
+.img1_wrapper {
+  background-image: url("../assets/images/img_file1.png");
+  height: 141px;
+  width: 185px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img1_wrapper1 {
+  background-image: url("../assets/images/img_file2.png");
+  height: 141px;
+  width: 185px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  align-items: center;
+  background-size: 70%;
+}
+
+.btn_upload {
+  background-image: url("../assets//images/btn_img_upload.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 112px;
+  height: 111px;
+  background-size: 77%;
+  border: 0 !important;
+
+  background-position: center;
+}
+
+.upload-btn-wrapper input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.cus_p_upload {
+  font-size: 19px;
+  font-family: "Cabin";
+  font-weight: 700;
+}
+
+.upload_imge_modal.modal.show .modal-dialog {
+  width: 900px !important;
+}
+
+.upload_imge_modal.modal.show .modal-body {
+  display: flex;
+  justify-content: space-around;
+}
+.upload_modal_main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+div#menu-trip
+  .MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper {
+  box-shadow: unset !important;
+  top: 372px !important;
+  border: 2px solid #f2f0f9;
+  border-top: 0 !important;
+  border-radius: 0px !important;
+  margin-left: 2px;
+}
+div#menu-category
+  .MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper {
+  box-shadow: unset !important;
+  top: 372px !important;
+  border: 2px solid #f2f0f9;
+  border-top: 0 !important;
+  border-radius: 0px !important;
+  margin-left: 2px;
+}
+
+.time-div h4 {
+  font-size: 18px;
+  color: #000;
+  opacity: 0.4;
+  margin-top: 7px;
+  font-family: "cabin";
+}
+.d-flex.title-div.feeback2_main_div {
+  justify-content: space-between;
+}
+.des-div {
+  font-family: "Cabin";
+}
+.fade.StartLoadingModal.modal.show .modal-header {
+  display: none;
+}
+
+.fade.StartLoadingModal.modal.show .modal-content {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.fade.twoLogo_modal.modal.show .text-center.modal-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fade.twoLogo_modal.modal.show .modal-content {
+  height: 633px;
+  display: flex;
+  justify-content: center;
+}
+
+.fade.twoLogo_modal.modal.show .modal-dialog {
+  width: 1022px;
+}
+
+.fade.twoLogo_modal.modal.show .modal-content {
+  border-radius: 0rem;
+}
+.d-flex.title-div h3:after {
+  content: ".";
+  display: block;
+  background-repeat: no-repeat;
+  height: 2px;
+  width: 2px;
+  opacity: 0.4;
+  font-size: 25px;
+  color: #000000 !important;
+  position: absolute;
+  top: -55%;
+  left: 105%;
+}
+.fade.modal_main.checkbox-modal.modal.show .modal-content {
+  border-radius: 0rem;
+}
+
+.fade.manageTripModal_addTrip.modal.show .modal-content {
+  /* height: 408px !important; */
+  padding: 20px 0px;
+  width: 557px;
+  border-radius: 0rem !important;
+}
+
+.red1 {
+  color: #d93053;
+}
+
+.fade {
+  transition: unset !important;
+}
+
+@media (min-width: 576px) {
+  .fade.manageTripModal_addTrip.modal.show .modal-dialog {
+    max-width: 705px;
+    margin: 1.75rem auto;
+    height: 519px !important;
+  }
+  .modal-dialog {
+    max-width: 800px;
+    margin: 1.75rem auto;
+  }
+
+  .fade.twoLogo_modal.modal.show .modal-dialog {
+    max-width: 1022px;
+    margin: 1.75rem auto;
+    height: 633px;
+  }
+  .fade.upload_imge_modal.modal.show .modal-dialog {
+    max-width: 900px !important;
+    margin: 1.75rem auto;
+  }
+}
+@media (min-width: 768px) {
+  .cus_col_9.col-md-9 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 82%;
+    max-width: 82%;
+  }
+}
+@media (max-width: 1920px) {
+  label.mb-3.show_pass.form-label {
+    width: 72% !important;
+  }
+}
+@media (max-width: 1800px) {
+  .statusContainer {
+    height: auto;
+  }
+  /* section.current-trip {
+    height: auto;
+  } */
+}
+
+@media (max-width: 1550px) {
+  label.mb-3.show_pass.form-label {
+    width: 92% !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .statusStepper .MuiStepper-root {
+    flex-direction: column;
+  }
+  .statusStepper .MuiStepper-root .MuiStep-root {
+    margin: 30px 0;
+    left: 50%;
+  }
+}
+.popper_hover:hover {
+  background-color: #f4f1fc !important;
+  cursor: pointer;
+}
+@media (max-height: 955px) {
+  section.current-trip {
+    height: auto !important;
+  }
+}
+@media (max-height: 800px) {
+  HTML,
+  body {
+    overflow-x: hidden;
+  }
+
+  section.trip-detail-component {
+    margin: 20px 50px 19px;
+  }
+  .currentTripMiddle {
+    padding: 18px 70px;
+  }
+}
+
+@media (max-height: 688px) {
+  .ManageTrip {
+    height: auto;
+  }
+}
+/* @media (max-height: 880px) {
+  .FeedBack {
+    height: auto;
+  }
+} */
